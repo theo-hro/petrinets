@@ -1,0 +1,683 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+<place>
+	<id>1</id>
+	<x>-166.98425520613836</x>
+	<y>159.4939600677037</y>
+	<label>ea.1</label>
+	<tokens>0</tokens>
+	<static>false</static>
+</place>
+<place>
+	<id>2</id>
+	<x>-203.28497189938884</x>
+	<y>-109.52877310539434</y>
+	<label>ea.2</label>
+	<tokens>0</tokens>
+	<static>false</static>
+</place>
+<place>
+	<id>3</id>
+	<x>41.34528875344042</x>
+	<y>-227.19010798986645</y>
+	<label>ea.3</label>
+	<tokens>0</tokens>
+	<static>false</static>
+</place>
+<place>
+	<id>4</id>
+	<x>228.8310890671329</x>
+	<y>-30.8793640049227</y>
+	<label>ea.4</label>
+	<tokens>0</tokens>
+	<static>false</static>
+</place>
+<place>
+	<id>5</id>
+	<x>100.08302046025955</x>
+	<y>208.0994225451561</y>
+	<label>ea.5</label>
+	<tokens>0</tokens>
+	<static>false</static>
+</place>
+<place>
+	<id>6</id>
+	<x>-211.67016933252594</x>
+	<y>274.20660342789114</y>
+	<label>hl.1</label>
+	<tokens>0</tokens>
+	<static>false</static>
+</place>
+<place>
+	<id>7</id>
+	<x>-326.1876303783794</x>
+	<y>-116.57769824356342</y>
+	<label>hl.2</label>
+	<tokens>0</tokens>
+	<static>false</static>
+</place>
+<place>
+	<id>8</id>
+	<x>10.073828999470948</x>
+	<y>-346.2572213075124</y>
+	<label>hl.3</label>
+	<tokens>0</tokens>
+	<static>false</static>
+</place>
+<place>
+	<id>9</id>
+	<x>332.40981185121</x>
+	<y>-97.41555340110159</y>
+	<label>hl.4</label>
+	<tokens>0</tokens>
+	<static>false</static>
+</place>
+<place>
+	<id>10</id>
+	<x>195.37191205609264</x>
+	<y>286.0444396693276</y>
+	<label>hl.5</label>
+	<tokens>0</tokens>
+	<static>false</static>
+</place>
+<place>
+	<id>11</id>
+	<x>-283.62252603266086</x>
+	<y>198.86909672648568</y>
+	<label>hr.1</label>
+	<tokens>0</tokens>
+	<static>false</static>
+</place>
+<place>
+	<id>12</id>
+	<x>-276.7760250657191</x>
+	<y>-208.29158942719204</y>
+	<label>hr.2</label>
+	<tokens>0</tokens>
+	<static>false</static>
+</place>
+<place>
+	<id>13</id>
+	<x>112.56972054996007</x>
+	<y>-327.6050730388855</y>
+	<label>hr.3</label>
+	<tokens>0</tokens>
+	<static>false</static>
+</place>
+<place>
+	<id>14</id>
+	<x>346.3427716977674</x>
+	<y>5.825260985921292</y>
+	<label>hr.4</label>
+	<tokens>0</tokens>
+	<static>false</static>
+</place>
+<place>
+	<id>15</id>
+	<x>101.49038651780464</x>
+	<y>331.20049438384166</y>
+	<label>hr.5</label>
+	<tokens>0</tokens>
+	<static>false</static>
+</place>
+<place>
+	<id>16</id>
+	<x>-309.140823255733</x>
+	<y>295.2738257744873</y>
+	<label>th.1</label>
+	<tokens>1</tokens>
+	<static>false</static>
+</place>
+<place>
+	<id>17</id>
+	<x>-376.3468182824249</x>
+	<y>-202.77029776227383</y>
+	<label>th.2</label>
+	<tokens>1</tokens>
+	<static>false</static>
+</place>
+<place>
+	<id>18</id>
+	<x>76.54917654408435</x>
+	<y>-420.592542894615</y>
+	<label>th.3</label>
+	<tokens>1</tokens>
+	<static>false</static>
+</place>
+<place>
+	<id>19</id>
+	<x>423.6531817175751</x>
+	<y>-57.16608423892115</y>
+	<label>th.4</label>
+	<tokens>1</tokens>
+	<static>false</static>
+</place>
+<place>
+	<id>20</id>
+	<x>185.2915443364895</x>
+	<y>385.2582525834555</y>
+	<label>th.5</label>
+	<tokens>1</tokens>
+	<static>false</static>
+</place>
+<place>
+	<id>21</id>
+	<x>-50.84136020762392</x>
+	<y>279.35479641188755</y>
+	<label>fo.1</label>
+	<tokens>1</tokens>
+	<static>false</static>
+</place>
+<place>
+	<id>22</id>
+	<x>-281.387307052224</x>
+	<y>37.97146612661851</y>
+	<label>fo.2</label>
+	<tokens>1</tokens>
+	<static>false</static>
+</place>
+<place>
+	<id>23</id>
+	<x>-123.0668264401062</x>
+	<y>-255.88922543550936</y>
+	<label>fo.3</label>
+	<tokens>1</tokens>
+	<static>false</static>
+</place>
+<place>
+	<id>24</id>
+	<x>205.3292811103873</x>
+	<y>-196.1166803614181</y>
+	<label>fo.4</label>
+	<tokens>1</tokens>
+	<static>false</static>
+</place>
+<place>
+	<id>25</id>
+	<x>249.9660838565515</x>
+	<y>134.67864439252963</y>
+	<label>fo.5</label>
+	<tokens>1</tokens>
+	<static>false</static>
+</place>
+<transition>
+	<id>26</id>
+	<x>-152.61267984458462</x>
+	<y>214.81890668960386</y>
+	<label>rl.[y=1]</label>
+</transition>
+<transition>
+	<id>27</id>
+	<x>-251.46025779641877</x>
+	<y>-78.7637466343496</y>
+	<label>rl.[y=2]</label>
+</transition>
+<transition>
+	<id>28</id>
+	<x>-2.7985859067421486</x>
+	<y>-263.5024258984032</y>
+	<label>rl.[y=3]</label>
+</transition>
+<transition>
+	<id>29</id>
+	<x>-176.3646173420454</x>
+	<y>316.1109692290375</y>
+	<label>tl.[y=1]</label>
+</transition>
+<transition>
+	<id>30</id>
+	<x>249.72864475285107</x>
+	<y>-84.08447223676009</y>
+	<label>rl.[y=4]</label>
+</transition>
+<transition>
+	<id>31</id>
+	<x>-355.13373673151574</x>
+	<y>-70.05301263882464</y>
+	<label>tl.[y=2]</label>
+</transition>
+<transition>
+	<id>32</id>
+	<x>157.1409528570733</x>
+	<y>211.5299760189274</y>
+	<label>rl.[y=5]</label>
+</transition>
+<transition>
+	<id>33</id>
+	<x>-43.1179740522887</x>
+	<y>-359.40765297795855</y>
+	<label>tl.[y=3]</label>
+</transition>
+<transition>
+	<id>34</id>
+	<x>328.48417195050945</x>
+	<y>-152.06795232824376</y>
+	<label>tl.[y=4]</label>
+</transition>
+<transition>
+	<id>35</id>
+	<x>-323.86358844867846</x>
+	<y>161.68043971760565</y>
+	<label>rr.[y=1]</label>
+</transition>
+<transition>
+	<id>36</id>
+	<x>246.1358689338066</x>
+	<y>265.41983555346576</y>
+	<label>tl.[y=5]</label>
+</transition>
+<transition>
+	<id>37</id>
+	<x>-253.8448482294344</x>
+	<y>-258.0569630753906</y>
+	<label>rr.[y=2]</label>
+</transition>
+<transition>
+	<id>38</id>
+	<x>166.98213761495396</x>
+	<y>-321.1659457696062</y>
+	<label>rr.[y=3]</label>
+</transition>
+<transition>
+	<id>39</id>
+	<x>-221.59108400774156</x>
+	<y>142.60059421818758</y>
+	<label>tr.[y=1]</label>
+</transition>
+<transition>
+	<id>40</id>
+	<x>357.0421425228891</x>
+	<y>59.56480251036101</y>
+	<label>rr.[y=4]</label>
+</transition>
+<transition>
+	<id>41</id>
+	<x>-204.09233079004127</x>
+	<y>-166.6837952186165</y>
+	<label>tr.[y=2]</label>
+</transition>
+<transition>
+	<id>42</id>
+	<x>53.68709468337352</x>
+	<y>357.98047643647186</y>
+	<label>rr.[y=5]</label>
+</transition>
+<transition>
+	<id>43</id>
+	<x>95.4535528256317</x>
+	<y>-245.6162640759289</y>
+	<label>tr.[y=3]</label>
+</transition>
+<transition>
+	<id>44</id>
+	<x>263.08323575034325</x>
+	<y>14.885558883126292</y>
+	<label>tr.[y=4]</label>
+</transition>
+<transition>
+	<id>45</id>
+	<x>67.14351689275735</x>
+	<y>254.81461971316503</y>
+	<label>tr.[y=5]</label>
+</transition>
+<arc>
+	<id>46</id>
+	<sourceId>1</sourceId>
+	<destinationId>26</destinationId>
+	<multiplicity>1</multiplicity>
+</arc>
+<arc>
+	<id>47</id>
+	<sourceId>26</sourceId>
+	<destinationId>21</destinationId>
+	<multiplicity>1</multiplicity>
+</arc>
+<arc>
+	<id>48</id>
+	<sourceId>26</sourceId>
+	<destinationId>11</destinationId>
+	<multiplicity>1</multiplicity>
+</arc>
+<arc>
+	<id>49</id>
+	<sourceId>2</sourceId>
+	<destinationId>27</destinationId>
+	<multiplicity>1</multiplicity>
+</arc>
+<arc>
+	<id>50</id>
+	<sourceId>27</sourceId>
+	<destinationId>22</destinationId>
+	<multiplicity>1</multiplicity>
+</arc>
+<arc>
+	<id>51</id>
+	<sourceId>27</sourceId>
+	<destinationId>12</destinationId>
+	<multiplicity>1</multiplicity>
+</arc>
+<arc>
+	<id>52</id>
+	<sourceId>3</sourceId>
+	<destinationId>28</destinationId>
+	<multiplicity>1</multiplicity>
+</arc>
+<arc>
+	<id>53</id>
+	<sourceId>28</sourceId>
+	<destinationId>23</destinationId>
+	<multiplicity>1</multiplicity>
+</arc>
+<arc>
+	<id>54</id>
+	<sourceId>28</sourceId>
+	<destinationId>13</destinationId>
+	<multiplicity>1</multiplicity>
+</arc>
+<arc>
+	<id>55</id>
+	<sourceId>16</sourceId>
+	<destinationId>29</destinationId>
+	<multiplicity>1</multiplicity>
+</arc>
+<arc>
+	<id>56</id>
+	<sourceId>21</sourceId>
+	<destinationId>29</destinationId>
+	<multiplicity>1</multiplicity>
+</arc>
+<arc>
+	<id>57</id>
+	<sourceId>29</sourceId>
+	<destinationId>6</destinationId>
+	<multiplicity>1</multiplicity>
+</arc>
+<arc>
+	<id>58</id>
+	<sourceId>4</sourceId>
+	<destinationId>30</destinationId>
+	<multiplicity>1</multiplicity>
+</arc>
+<arc>
+	<id>59</id>
+	<sourceId>30</sourceId>
+	<destinationId>24</destinationId>
+	<multiplicity>1</multiplicity>
+</arc>
+<arc>
+	<id>60</id>
+	<sourceId>30</sourceId>
+	<destinationId>14</destinationId>
+	<multiplicity>1</multiplicity>
+</arc>
+<arc>
+	<id>61</id>
+	<sourceId>17</sourceId>
+	<destinationId>31</destinationId>
+	<multiplicity>1</multiplicity>
+</arc>
+<arc>
+	<id>62</id>
+	<sourceId>22</sourceId>
+	<destinationId>31</destinationId>
+	<multiplicity>1</multiplicity>
+</arc>
+<arc>
+	<id>63</id>
+	<sourceId>31</sourceId>
+	<destinationId>7</destinationId>
+	<multiplicity>1</multiplicity>
+</arc>
+<arc>
+	<id>64</id>
+	<sourceId>5</sourceId>
+	<destinationId>32</destinationId>
+	<multiplicity>1</multiplicity>
+</arc>
+<arc>
+	<id>65</id>
+	<sourceId>32</sourceId>
+	<destinationId>25</destinationId>
+	<multiplicity>1</multiplicity>
+</arc>
+<arc>
+	<id>66</id>
+	<sourceId>32</sourceId>
+	<destinationId>15</destinationId>
+	<multiplicity>1</multiplicity>
+</arc>
+<arc>
+	<id>67</id>
+	<sourceId>18</sourceId>
+	<destinationId>33</destinationId>
+	<multiplicity>1</multiplicity>
+</arc>
+<arc>
+	<id>68</id>
+	<sourceId>23</sourceId>
+	<destinationId>33</destinationId>
+	<multiplicity>1</multiplicity>
+</arc>
+<arc>
+	<id>69</id>
+	<sourceId>33</sourceId>
+	<destinationId>8</destinationId>
+	<multiplicity>1</multiplicity>
+</arc>
+<arc>
+	<id>70</id>
+	<sourceId>19</sourceId>
+	<destinationId>34</destinationId>
+	<multiplicity>1</multiplicity>
+</arc>
+<arc>
+	<id>71</id>
+	<sourceId>24</sourceId>
+	<destinationId>34</destinationId>
+	<multiplicity>1</multiplicity>
+</arc>
+<arc>
+	<id>72</id>
+	<sourceId>34</sourceId>
+	<destinationId>9</destinationId>
+	<multiplicity>1</multiplicity>
+</arc>
+<arc>
+	<id>73</id>
+	<sourceId>11</sourceId>
+	<destinationId>35</destinationId>
+	<multiplicity>1</multiplicity>
+</arc>
+<arc>
+	<id>74</id>
+	<sourceId>35</sourceId>
+	<destinationId>22</destinationId>
+	<multiplicity>1</multiplicity>
+</arc>
+<arc>
+	<id>75</id>
+	<sourceId>35</sourceId>
+	<destinationId>16</destinationId>
+	<multiplicity>1</multiplicity>
+</arc>
+<arc>
+	<id>76</id>
+	<sourceId>20</sourceId>
+	<destinationId>36</destinationId>
+	<multiplicity>1</multiplicity>
+</arc>
+<arc>
+	<id>77</id>
+	<sourceId>25</sourceId>
+	<destinationId>36</destinationId>
+	<multiplicity>1</multiplicity>
+</arc>
+<arc>
+	<id>78</id>
+	<sourceId>36</sourceId>
+	<destinationId>10</destinationId>
+	<multiplicity>1</multiplicity>
+</arc>
+<arc>
+	<id>79</id>
+	<sourceId>12</sourceId>
+	<destinationId>37</destinationId>
+	<multiplicity>1</multiplicity>
+</arc>
+<arc>
+	<id>80</id>
+	<sourceId>37</sourceId>
+	<destinationId>23</destinationId>
+	<multiplicity>1</multiplicity>
+</arc>
+<arc>
+	<id>81</id>
+	<sourceId>37</sourceId>
+	<destinationId>17</destinationId>
+	<multiplicity>1</multiplicity>
+</arc>
+<arc>
+	<id>82</id>
+	<sourceId>13</sourceId>
+	<destinationId>38</destinationId>
+	<multiplicity>1</multiplicity>
+</arc>
+<arc>
+	<id>83</id>
+	<sourceId>38</sourceId>
+	<destinationId>24</destinationId>
+	<multiplicity>1</multiplicity>
+</arc>
+<arc>
+	<id>84</id>
+	<sourceId>38</sourceId>
+	<destinationId>18</destinationId>
+	<multiplicity>1</multiplicity>
+</arc>
+<arc>
+	<id>85</id>
+	<sourceId>6</sourceId>
+	<destinationId>39</destinationId>
+	<multiplicity>1</multiplicity>
+</arc>
+<arc>
+	<id>86</id>
+	<sourceId>22</sourceId>
+	<destinationId>39</destinationId>
+	<multiplicity>1</multiplicity>
+</arc>
+<arc>
+	<id>87</id>
+	<sourceId>39</sourceId>
+	<destinationId>1</destinationId>
+	<multiplicity>1</multiplicity>
+</arc>
+<arc>
+	<id>88</id>
+	<sourceId>14</sourceId>
+	<destinationId>40</destinationId>
+	<multiplicity>1</multiplicity>
+</arc>
+<arc>
+	<id>89</id>
+	<sourceId>40</sourceId>
+	<destinationId>25</destinationId>
+	<multiplicity>1</multiplicity>
+</arc>
+<arc>
+	<id>90</id>
+	<sourceId>40</sourceId>
+	<destinationId>19</destinationId>
+	<multiplicity>1</multiplicity>
+</arc>
+<arc>
+	<id>91</id>
+	<sourceId>7</sourceId>
+	<destinationId>41</destinationId>
+	<multiplicity>1</multiplicity>
+</arc>
+<arc>
+	<id>92</id>
+	<sourceId>23</sourceId>
+	<destinationId>41</destinationId>
+	<multiplicity>1</multiplicity>
+</arc>
+<arc>
+	<id>93</id>
+	<sourceId>41</sourceId>
+	<destinationId>2</destinationId>
+	<multiplicity>1</multiplicity>
+</arc>
+<arc>
+	<id>94</id>
+	<sourceId>15</sourceId>
+	<destinationId>42</destinationId>
+	<multiplicity>1</multiplicity>
+</arc>
+<arc>
+	<id>95</id>
+	<sourceId>42</sourceId>
+	<destinationId>21</destinationId>
+	<multiplicity>1</multiplicity>
+</arc>
+<arc>
+	<id>96</id>
+	<sourceId>42</sourceId>
+	<destinationId>20</destinationId>
+	<multiplicity>1</multiplicity>
+</arc>
+<arc>
+	<id>97</id>
+	<sourceId>8</sourceId>
+	<destinationId>43</destinationId>
+	<multiplicity>1</multiplicity>
+</arc>
+<arc>
+	<id>98</id>
+	<sourceId>24</sourceId>
+	<destinationId>43</destinationId>
+	<multiplicity>1</multiplicity>
+</arc>
+<arc>
+	<id>99</id>
+	<sourceId>43</sourceId>
+	<destinationId>3</destinationId>
+	<multiplicity>1</multiplicity>
+</arc>
+<arc>
+	<id>100</id>
+	<sourceId>9</sourceId>
+	<destinationId>44</destinationId>
+	<multiplicity>1</multiplicity>
+</arc>
+<arc>
+	<id>101</id>
+	<sourceId>25</sourceId>
+	<destinationId>44</destinationId>
+	<multiplicity>1</multiplicity>
+</arc>
+<arc>
+	<id>102</id>
+	<sourceId>44</sourceId>
+	<destinationId>4</destinationId>
+	<multiplicity>1</multiplicity>
+</arc>
+<arc>
+	<id>103</id>
+	<sourceId>10</sourceId>
+	<destinationId>45</destinationId>
+	<multiplicity>1</multiplicity>
+</arc>
+<arc>
+	<id>104</id>
+	<sourceId>21</sourceId>
+	<destinationId>45</destinationId>
+	<multiplicity>1</multiplicity>
+</arc>
+<arc>
+	<id>105</id>
+	<sourceId>45</sourceId>
+	<destinationId>5</destinationId>
+	<multiplicity>1</multiplicity>
+</arc>
+</document>
