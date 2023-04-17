@@ -1,10 +1,4 @@
-image: ruby:2.7
+image: alpine:latest
 
 pages:
-  script:
-    - gem install bundler
-    - bundle install
-    - bundle exec jekyll build -d public
-  artifacts:
-    paths:
-      - public
+  stage: deploy
