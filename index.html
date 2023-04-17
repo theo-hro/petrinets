@@ -1,0 +1,240 @@
+<!DOCTYPE HTML>
+<HTML>
+
+<HEAD>
+    <TITLE> Petri net PETRIFLOW </TITLE>
+
+    <script src="petrinets.js"></script>
+
+    <link rel="stylesheet" href="petrinet.css">
+    </style>
+
+
+<BODY onload=initialize()>
+
+    <div id="horny_div">
+        <div>
+            <nav class="mojeostatne"> PETRIFLOW - simple free online Petri net editor on cloud by BIREGAL &#169; <a
+                    href="mailto:biregal@biregal.sk">biregal@biregal.sk</a>
+                <hr> Your model: <label id="menofilu">newmodel.xml</label>
+            </nav>
+        </div>
+        <div style="font-family:verdana; font-size:15px">
+            <nav class="mojebuttony">
+
+
+                <input type="file" id="otvorSubor" onchange="otvorFile(event)" />
+                <label for="otvorSubor" title="open"><img src="icons/open.svg" alt="open" /></label>
+
+
+                <input type="button" value="Save" id="saveasXML" onclick="exportasXML(1)" />
+                <label for="saveasXML" title="save"><img src="icons/save.svg" alt="save" /></label>
+
+                <input type="button" value="Export" id="saveasPFLOW" onclick="exportasXML(2)" />
+                <label for="saveasPFLOW" title="export pneditor format .pflow"><img src="icons/exportpflow.svg"
+                        alt="export pflow" /></label>
+
+                <input type="button" value="SaveSVG" id="saveasSVG" onclick="exportasSVG()" />
+                <label for="saveasSVG" title="save as SVG"><img src="icons/savesvg.svg" alt="save SVG" /></label>
+
+
+                <input type="button" value="Clear" id="clear" onclick="clearmodel()" />
+                <label for="clear" title="clear"><img src="icons/clear.svg" alt="clear" /></label>
+
+                <input type="button" value="Dimension" id="dimension" onclick="setDimension()" />
+                <label for="dimension" title="set dimension"><img src="icons/dimension.svg" alt="dimension" /></label>
+
+                <input type="button" value="Align" id="align" onclick="alignElements()" />
+                <label for="align" title="align"><img src="icons/align.svg" alt="align" /></label>
+
+                <input type="button" value="Properties" id="properties" onclick="propertiesM()" />
+                <label for="properties" title="properties"><img src="icons/properties.svg" alt="properties" /></label>
+
+                <input type="button" value="Help" id="help" onclick="help()" />
+                <label for="help" title="help"><img src="icons/help.svg" alt="help" /></label>
+
+                <input type="button" value="About" id="about" onclick="about()" />
+                <label for="about" title="about"><img src="icons/about.svg" alt="about" /></label>
+
+                <br>
+
+
+
+                <input type="radio" name="radSize" id="transition" value="transition" checked="checked"
+                    onclick="reset()" />
+                <label for="transition" title="transition"><img src="icons/transition.svg" alt="transition" /></label>
+
+
+                <input type="radio" name="radSize" id="place" value="place" onclick="reset()" />
+                <label for="place" title="place"><img src="icons/place.svg" alt="place" /></label>
+
+                <input type="radio" name="radSize" id="staticplace" value="staticplace" onclick="reset()" />
+                <label for="staticplace" title="static place"><img src="icons/staticplace.svg"
+                        alt="staticplace" /></label>
+
+                <input type="radio" name="radSize" id="addtoken" value="addtoken" onclick="reset()" />
+                <label for="addtoken" title="add tokens"><img src="icons/addtokens.svg" alt="add tokens" /></label>
+
+                <input type="radio" name="radSize" id="removetoken" value="removetoken" onclick="reset()" />
+                <label for="removetoken" title="remove tokens"><img src="icons/removetokens.svg"
+                        alt="removetokens" /></label>
+
+                <input type="radio" name="radSize" id="marking" value="marking" onclick="reset()" />
+                <label for="marking" title="set marking"><img src="icons/marking.svg" alt="marking" /></label>
+
+                <input type="radio" name="radSize" id="label" value="label" onclick="reset()" />
+                <label for="label" title="set label"><img src="icons/label.svg" alt="label" /></label>
+
+
+                <input type="radio" name="radSize" id="arc" value="arc" onclick="reset()" />
+                <label for="arc" title="arc"><img src="icons/arc.svg" alt="arc" /></label>
+
+                <input type="radio" name="radSize" id="arc_weight" value="arc_weight" onclick="reset()" />
+                <label for="arc_weight" title="arc weight"><img src="icons/arcweight.svg" alt="arc weight" /></label>
+
+
+
+                <input type="radio" name="radSize" id="resetarc" value="resetarc" onclick="reset()" />
+                <label for="resetarc" title="reset arc"><img src="icons/resetarc.svg" alt="reset arc" /></label>
+
+                <input type="radio" name="radSize" id="inhibitorarc" value="inhibitorarc" onclick="reset()" />
+                <label for="inhibitorarc" title="inhibitor arc"><img src="icons/inhibitor.svg"
+                        alt="inhibitor arc" /></label>
+
+                <input type="radio" name="radSize" id="position" value="position" onclick="reset()" />
+                <label for="position" title="position - x and y coordinates"><img src="icons/position.svg"
+                        alt="position" /></label>
+
+                <input type="radio" name="radSize" id="delete" value="delete" onclick="reset()" />
+                <label for="delete" title="delete"><img src="icons/delete.svg" alt="delete" /></label>
+
+                <input type="radio" name="radSize" id="move" value="move" onclick="reset()" />
+                <label for="move" title="move"><img src="icons/move.svg" alt="move" /></label>
+
+
+                <input type="radio" name="radSize" id="fire" value="fire" onclick="reset()" />
+                <label for="fire" title="fire"><img src="icons/fire.svg" alt="fire" /></label>
+
+                <input type="button" id="resetmarking" value="resetmarking" onclick="resetMarking()" />
+                <label for="resetmarking" title="reset marking"><img src="icons/undo.svg" alt="resetMarking" /></label>
+
+            </nav>
+
+
+
+        </div>
+    </div>
+    <div id="dolny_div">
+
+        <div id="nadplochou">
+            <svg id="plocha_1">
+
+            </svg>
+        </div>
+
+    </div>
+
+
+    <div id="shade"></div>
+    <div id="modal">
+        <nav class="mojeclose">
+
+            <input type="button" value="Close" id="zavri" onclick="zavri()" />
+            <label for="zavri" title="close help"><img src="icons/close.svg" alt="close" /></label>
+            <div>Please, press a button to read the help</div>
+        </nav>
+        <nav class="mojebuttony">
+
+            <input type="radio" name="radHelp" id="helpotvorSubor" onclick="helpotvorFile()" />
+            <label for="helpotvorSubor" title="open"><img src="icons/open.svg" alt="open" /></label>
+
+
+            <input type="radio" name="radHelp" value="Save" id="helpsaveasXML" onclick="helpexportasXML()" />
+            <label for="helpsaveasXML" title="save"><img src="icons/save.svg" alt="save" /></label>
+
+            <input type="radio" name="radHelp" value="Export" id="helpsaveasPFLOW" onclick="helpexportasPFLOW()" />
+            <label for="helpsaveasPFLOW" title="export pneditor format .pflow"><img src="icons/exportpflow.svg"
+                    alt="export pflow" /></label>
+
+            <input type="radio" name="radHelp" value="SaveSVG" id="helpsaveasSVG" onclick="helpexportasSVG()" />
+            <label for="helpsaveasSVG" title="save as SVG"><img src="icons/savesvg.svg" alt="save SVG" /></label>
+
+            <input type="radio" name="radHelp" value="Clear" id="helpclear" onclick="helpclearmodel()" />
+            <label for="helpclear" title="clear"><img src="icons/clear.svg" alt="clear" /></label>
+
+            <input type="radio" name="radHelp" value="Dimension" id="helpdimension" onclick="helpsetDimension()" />
+            <label for="helpdimension" title="set dimension"><img src="icons/dimension.svg" alt="dimension" /></label>
+
+            <input type="radio" name="radHelp" value="Align" id="helpalign" onclick="helpalignElements()" />
+            <label for="helpalign" title="align"><img src="icons/align.svg" alt="align" /></label>
+
+            <input type="radio" name="radHelp" value="Properties" id="helpproperties" onclick="helppropertiesM()" />
+            <label for="helpproperties" title="properties"><img src="icons/properties.svg" alt="properties" /></label>
+
+            <input type="radio" name="radHelp" value="Help" id="helphelp" onclick="helphelp()" />
+            <label for="helphelp" title="help"><img src="icons/help.svg" alt="help" /></label>
+
+            <input type="radio" name="radHelp" value="About" id="helpabout" onclick="helpabout()" />
+            <label for="helpabout" title="about"><img src="icons/about.svg" alt="about" /></label>
+
+            <br>
+
+            <input type="radio" name="radHelp" id="helptransition" onclick="helptransition()" />
+            <label for="helptransition" title="transition"><img src="icons/transition.svg" alt="transition" /></label>
+
+
+            <input type="radio" name="radHelp" id="helpplace" onclick="helpplace()" />
+            <label for="helpplace" title="place"><img src="icons/place.svg" alt="place" /></label>
+
+            <input type="radio" name="radHelp" id="helpstaticplace" onclick="helpstaticplace()" />
+            <label for="helpstaticplace" title="static place"><img src="icons/staticplace.svg"
+                    alt="staticplace" /></label>
+
+            <input type="radio" name="radHelp" id="helpaddtoken" onclick="helpaddtoken()" />
+            <label for="helpaddtoken" title="add tokens"><img src="icons/addtokens.svg" alt="add tokens" /></label>
+
+            <input type="radio" name="radHelp" id="helpremovetoken" onclick="helpremovetoken()" />
+            <label for="helpremovetoken" title="remove tokens"><img src="icons/removetokens.svg"
+                    alt="removetokens" /></label>
+
+            <input type="radio" name="radHelp" id="helpmarking" onclick="helpmarking()" />
+            <label for="helpmarking" title="set marking"><img src="icons/marking.svg" alt="marking" /></label>
+
+            <input type="radio" name="radHelp" id="helplabel" onclick="helplabel()" />
+            <label for="helplabel" title="set label"><img src="icons/label.svg" alt="label" /></label>
+
+
+            <input type="radio" name="radHelp" id="helparc" onclick="helparc()" />
+            <label for="helparc" title="arc"><img src="icons/arc.svg" alt="arc" /></label>
+
+            <input type="radio" name="radHelp" id="helparc_weight" onclick="helparc_weight()" />
+            <label for="helparc_weight" title="arc weight"><img src="icons/arcweight.svg" alt="arc weight" /></label>
+
+
+
+            <input type="radio" name="radHelp" id="helpresetarc" onclick="helpresetarc()" />
+            <label for="helpresetarc" title="reset arc"><img src="icons/resetarc.svg" alt="reset arc" /></label>
+
+            <input type="radio" name="radHelp" id="helpinhibitorarc" onclick="helpinhibitorarc()" />
+            <label for="helpinhibitorarc" title="inhibitor arc"><img src="icons/inhibitor.svg"
+                    alt="inhibitor arc" /></label>
+
+            <input type="radio" name="radHelp" id="helpposition" onclick="helpposition()" />
+            <label for="helpposition" title="position - x and y coordinates"><img src="icons/position.svg"
+                    alt="position" /></label>
+
+            <input type="radio" name="radHelp" id="helpdelete" onclick="helpdelete()" />
+            <label for="helpdelete" title="delete"><img src="icons/delete.svg" alt="delete" /></label>
+
+            <input type="radio" name="radHelp" id="helpmove" onclick="helpmove()" />
+            <label for="helpmove" title="move"><img src="icons/move.svg" alt="move" /></label>
+
+
+            <input type="radio" name="radHelp" id="helpfire" onclick="helpfire()" />
+            <label for="helpfire" title="fire"><img src="icons/fire.svg" alt="fire" /></label>
+            <p id="insidemodal"></p>
+        </nav>
+    </div>
+</BODY>
+
+</HTML>

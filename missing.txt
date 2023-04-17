@@ -1,0 +1,11 @@
+http://www.biregal.com/icons/marking.svg
+http://www.biregal.com/icons/arc.svg
+http://www.biregal.com/icons/label.svg
+http://www.biregal.com/icons/arcweight.svg
+http://www.biregal.com/icons/resetarc.svg
+http://www.biregal.com/icons/position.svg
+http://www.biregal.com/icons/inhibitor.svg
+http://www.biregal.com/icons/delete.svg
+http://www.biregal.com/icons/move.svg
+http://www.biregal.com/icons/fire.svg
+http://www.biregal.com/icons/close.svg
