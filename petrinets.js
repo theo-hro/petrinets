@@ -25,6 +25,8 @@ var pocetmousedownposuv = 0;
 var pocetmousedownposuvtran = 0;
 var pocetmousedownposuvplace = 0;
 
+var defaultModel = "";
+
 var posuvanahrana;
 var pomtext = "";
 var tokenpolomer = 3;
@@ -1738,17 +1740,19 @@ function initialize() {
     dolny_div.setAttribute("style", "border-style: solid; border-width: 2px; width:" + appwidth + "px");
     horny_div.setAttribute("style", "border-style: solid; border-width: 2px; border-bottom:none; font-family:verdana; font-size:15px; width:" + appwidth + "px");
 
-    let xhttp = new window.XMLHttpRequest();
-    xhttp.overrideMimeType("text/xml");
-    xhttp.open("GET", "phils5.xml", false);
-    xhttp.send(null);
-
-    xmlDoc = xhttp.responseXML;
-    nacitajxml(xmlDoc);
-
-    menofilu = "phils5.xml";
-    document.getElementById('menofilu').innerHTML = menofilu;
-
+    if (defaultModel.length > 0) {
+        let xhttp = new window.XMLHttpRequest();
+        xhttp.overrideMimeType("text/xml");
+        xhttp.open("GET", defaultModel, false);
+        xhttp.send(null);
+    
+        xmlDoc = xhttp.responseXML;
+        nacitajxml(xmlDoc);
+    
+        menofilu = defaultModel;
+        document.getElementById('menofilu').innerHTML = menofilu;
+    
+    }
 }
 
 
