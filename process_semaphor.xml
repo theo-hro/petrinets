@@ -2,142 +2,142 @@
 <document>
 <place>
 	<id>1</id>
-	<x>-32.54427437675387</x>
-	<y>-71.92619749406208</y>
+	<x>871.1964115504801</x>
+	<y>371.41470890550545</y>
 	<label>available</label>
 	<tokens>1</tokens>
 	<static>false</static>
 </place>
 <place>
 	<id>2</id>
-	<x>17.487926914090853</x>
-	<y>22.391682359765156</y>
+	<x>921.2286128413249</x>
+	<y>465.7325887593327</y>
 	<label>taken</label>
 	<tokens>0</tokens>
 	<static>false</static>
 </place>
 <place>
 	<id>3</id>
-	<x>-527.4196644794912</x>
-	<y>59.886816726079694</y>
+	<x>376.32102144774285</x>
+	<y>503.2277231256475</y>
 	<label>idle_1</label>
 	<tokens>1</tokens>
 	<static>false</static>
 </place>
 <place>
 	<id>4</id>
-	<x>-863.7406859272342</x>
-	<y>-44.65613877718298</y>
+	<x>40.0</x>
+	<y>398.6847676223849</y>
 	<label>doing_something_1</label>
 	<tokens>0</tokens>
 	<static>false</static>
 </place>
 <place>
 	<id>5</id>
-	<x>-242.89378550237996</x>
-	<y>396.65909360043247</y>
+	<x>660.8469004248543</x>
+	<y>840.0</y>
 	<label>requested_1</label>
 	<tokens>0</tokens>
 	<static>false</static>
 </place>
 <place>
 	<id>6</id>
-	<x>-271.9737245465632</x>
-	<y>143.87845233615283</y>
+	<x>631.7669613806708</x>
+	<y>587.2193587357203</y>
 	<label>critical_1</label>
 	<tokens>0</tokens>
 	<static>false</static>
 </place>
 <place>
 	<id>7</id>
-	<x>527.3945348252149</x>
-	<y>-39.76009071904129</y>
+	<x>1431.135220752449</x>
+	<y>403.58081568052603</y>
 	<label>idle_2</label>
 	<tokens>1</tokens>
 	<static>false</static>
 </place>
 <place>
 	<id>8</id>
-	<x>854.2089507336403</x>
-	<y>95.67178975143321</y>
+	<x>1757.9496366608744</x>
+	<y>539.0126961510006</y>
 	<label>doing_something_2</label>
 	<tokens>0</tokens>
 	<static>false</static>
 </place>
 <place>
 	<id>9</id>
-	<x>272.5941916820002</x>
-	<y>-403.3409063995675</y>
+	<x>1176.3348776092341</x>
+	<y>40.0</y>
 	<label>requested_2</label>
 	<tokens>0</tokens>
 	<static>false</static>
 </place>
 <place>
 	<id>10</id>
-	<x>265.000569132211</x>
-	<y>-187.9290866634783</y>
+	<x>1168.741255059445</x>
+	<y>255.41181973608911</y>
 	<label>critical_2</label>
 	<tokens>0</tokens>
 	<static>false</static>
 </place>
 <transition>
 	<id>11</id>
-	<x>-453.88640120760346</x>
-	<y>312.68626405553175</y>
+	<x>449.8542847196308</x>
+	<y>756.0271704550994</y>
 	<label>request_1</label>
 </transition>
 <transition>
 	<id>12</id>
-	<x>-83.13196684940542</x>
-	<y>199.5782881968587</y>
+	<x>820.6087190778287</x>
+	<y>642.9191945964261</y>
 	<label>enter_1</label>
 </transition>
 <transition>
 	<id>13</id>
-	<x>-253.77497741617668</x>
-	<y>-44.317775693429176</y>
+	<x>649.9657085110574</x>
+	<y>399.02313070613843</y>
 	<label>leave_1</label>
 </transition>
 <transition>
 	<id>14</id>
-	<x>-687.1858737730603</x>
-	<y>-135.50334001520008</y>
+	<x>216.55481215417376</x>
+	<y>307.8375663843677</y>
 	<label>start_task_1</label>
 </transition>
 <transition>
 	<id>15</id>
-	<x>-790.4492332615399</x>
-	<y>141.7233421277565</y>
+	<x>113.2914526656942</x>
+	<y>585.0642485273244</y>
 	<label>end_task_1</label>
 </transition>
 <transition>
 	<id>16</id>
-	<x>478.66333529812556</x>
-	<y>-293.4279720107978</y>
+	<x>1382.4040212253594</x>
+	<y>149.91293438876951</y>
 	<label>request_2</label>
 </transition>
 <transition>
 	<id>17</id>
-	<x>81.88351302001888</x>
-	<y>-236.78517597908458</y>
+	<x>985.6241989472527</x>
+	<y>206.55573042048303</y>
 	<label>enter_2</label>
 </transition>
 <transition>
 	<id>18</id>
-	<x>242.91506710509003</x>
-	<y>13.690845034066669</y>
+	<x>1146.6557530323241</x>
+	<y>457.0317514336341</y>
 	<label>leave_2</label>
 </transition>
 <transition>
 	<id>19</id>
-	<x>669.7604768877754</x>
-	<y>167.21911912390354</y>
+	<x>1573.5011628150094</x>
+	<y>610.5600255234708</y>
 	<label>start_task_2</label>
 </transition>
 <transition>
 	<id>20</id>
-	<x>797.0920217420405</x>
-	<y>-95.73900956013676</y>
+	<x>1700.8327076692744</x>
+	<y>347.60189683943054</y>
 	<label>end_task_2</label>
 </transition>
 <arc>

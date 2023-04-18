@@ -123,11 +123,22 @@ def main():
         smaller = min(width, height)
         factor = 400/smaller
         for pos in layout.values():
-            pos[0] *= factor
-            pos[1] *= factor
+            pos[0] = (pos[0] - x_min) * factor
+            pos[1] = (pos[1] - y_min) * factor
     
     for nid,pos in layout.items():
-        layout[nid] = [pos[0] * args.scale, pos[1] * args.scale]
+        pos[0] *= args.scale
+        pos[1] *= args.scale
+        x_min = math.inf
+        y_min = math.inf
+        for pos in layout.values():
+            x_min = min(x_min, pos[0])
+            y_min = min(y_min, pos[1])
+    
+    for pos in layout.values():
+        pos[0] = pos[0] - x_min + 40
+        pos[1] = pos[1] - y_min + 40
+
 
     generate_xml(net, args.output, layout)
 
